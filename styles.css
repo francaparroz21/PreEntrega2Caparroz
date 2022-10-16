@@ -90,9 +90,15 @@ ul{list-style-type: none;}
 
 .bannerBox{
   padding-top: 4px;
+  display: grid;
+  place-items: center;
 }
 
 .bannerBox img{
-  height: 800px;
-  width: 1382px;
+  width: 100%;
+}
+
+.container{
+  display: grid;
+
 }
