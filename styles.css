@@ -57,7 +57,7 @@ flex-wrap: wrap;
 }
 
 .navbar-left ul div li a:hover{
-  color: var(--sweet-pink);
+  color: green;
   transition: all .3s ease-in-out, color .3s ease-in-out;
 }
 
