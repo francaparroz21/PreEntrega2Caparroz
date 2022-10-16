@@ -27,7 +27,7 @@
 }
 
 body{
-  font-family: "SoDo Sans SemiBold";
+  font-family: "SoDo Sans SemiBold" !important;
   background-color: var(--linen);
 }
 a{text-decoration: none;
