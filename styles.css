@@ -26,11 +26,14 @@
 
 }
 
+/*Body*/
 body{
   font-family: "SoDo Sans SemiBold" !important;
   background-color: var(--linen);
 }
-a{text-decoration: none;
+
+/*Menu*/
+.navbar a{text-decoration: none;
 color: var(--negro);}
 
 .navbar{padding: 20px;
@@ -45,7 +48,7 @@ flex-wrap: wrap;
 }
 
 
-ul{list-style-type: none;}
+.navbar ul{list-style-type: none;}
 
 .navbar-left a img{
   max-width: 80px;
@@ -88,6 +91,7 @@ ul{list-style-type: none;}
   transition: all .3s ease-in-out, color .3s ease-in-out;
 }
 
+/*Banner*/
 .bannerBox{
   padding-top: 4px;
   display: grid;
@@ -98,7 +102,67 @@ ul{list-style-type: none;}
   width: 100%;
 }
 
+
+/*Intro*/
+  .intro_desc {
+    margin-top: 3.5px;
+    padding: 30px 50px 30px 50px;
+  }
+
+  .intro_desc p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .intro_desc a{color: var(--blanco);}
+
+  .intro_desc a:hover{
+    background-color: white;
+    color: var(--negro);
+    transition: .3s;
+  }
+
+
+/*Fondo*/
+
+.backgroundBox{
+  min-height: 100vh;
+  background: linear-gradient(rgba(5,7,12, 0.75),rgba(5,7,12,0.75)), url(./images/background_eyebrow.PNG)
+   no-repeat center center fixed;
+  background-size: cover;
+  color: var(--blanco);
+}
+
+/*Description*/
+
 .container{
   display: grid;
-
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
 }
+
+.container section{
+  width: 400px;
+  padding: 0px 50px 0px 50px;
+}
+
+.container h2{
+  text-align: center;
+  padding: 20px;
+}
+
+.container p{
+  padding: 20px;
+}
+
+.container li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+
+
+
+
