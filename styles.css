@@ -259,6 +259,53 @@ and (max-width: 736px)
                "photo2";
   }
 
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,auto);
+    grid-area: "cosmetology"
+               "holistic"
+               "facial"
+               "makeup_pro"
+               "eyebrow"
+               "massages";
+  }
+  
+  .container .cosmetology{
+    grid-area: cosmetology;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .container .holistic_terapy{
+    grid-area: holistic;
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .container .facials{
+    grid-area: facial;
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .container .makeup{
+    grid-area: makeup_pro;
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  .container .eyebrows{
+    grid-area: eyebrow;
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .container .massages{
+    grid-area: massages;
+    grid-row: 6;
+    grid-column: 1;
+  }
+
   .makeup_intro{grid-column: 1;
     text-align: center;
   }
