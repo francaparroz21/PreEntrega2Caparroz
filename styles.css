@@ -262,7 +262,7 @@ and (max-width: 736px)
   }
 
   .container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 300px;
     grid-template-rows: repeat(6,auto);
     grid-area: "cosmetology"
                "holistic"
