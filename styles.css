@@ -268,6 +268,7 @@ flex-wrap: wrap;
 footer{
   display: flex;
   justify-content: space-around;
+  padding: 10px;
 }
 
 footer section > * {
@@ -282,9 +283,31 @@ footer .query h4{
   margin:auto;
 }
 
+footer section .instagram_footer{
+  display: flex;
+}
+
+footer section .instagram_footer .instagram_logo a:hover{
+  padding: 50px;
+  transition: .5s;
+}
+
+footer section .instagram_footer .instagram_logo{
+  padding-left: 20px;
+}
+
+footer .instagram_footer section p a{
+  padding-left: 20px;
+  width: 30px;
+}
+
+footer section .instagram_footer div a img {
+  width: 30px;
+}
+
 footer section {
+  width: 450px;
   padding: 15px;
-  border: 1px solid white;
 }
 
 /*Media Queries*/
@@ -373,6 +396,14 @@ and (max-width: 736px)
     grid-row: 3;
     grid-column: 1;
     justify-self: start;
+  }
+
+  footer{
+    flex-wrap: wrap;
+  }
+
+  footer .query{
+    display: block;
   }
 }
 
