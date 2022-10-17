@@ -192,16 +192,18 @@ flex-wrap: wrap;
 
 .container{
   display: grid;
+  padding: 10px;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
   place-items: center;
 }
 
 .container section{
+  padding: 10px;
   width: 400px;
   height: 405px;
   border-radius: 20px;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
   border: 1px solid white;
   flex-wrap: wrap;
 }
