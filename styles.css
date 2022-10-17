@@ -133,12 +133,23 @@ flex-wrap: wrap;
   font-size: 80px;
 }
 
-
 .publications_makeup{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
+  grid-template-areas: "makeup photo1 photo2";
   padding: 20px;
+}
+
+.makeup_intro{
+  grid-area: makeup;
+}
+
+.photo1{
+  grid-area: photo1;
+}
+.photo2{
+  grid-area: photo2;
 }
 
 .publication_makeup_intro{
@@ -146,7 +157,6 @@ flex-wrap: wrap;
 }
 
 .publications_makeup_steps{
-  border: 1px solid white;
   text-align: center;
 }
 
@@ -160,7 +170,6 @@ flex-wrap: wrap;
 
 
 .images_publication_makeup{
-  display: flex;
   height: auto;
   grid-column: 2;
   grid-row: 1/ 3;
@@ -169,13 +178,6 @@ flex-wrap: wrap;
 .images_publication_makeup img{
   height: 350px;
 }
-
-.publications {}
-
-
-
-
-
 
 /*Fondo*/
 
@@ -243,6 +245,14 @@ flex-wrap: wrap;
 }
 
 
+@media only screen
+and (min-width: 320px)
+and (max-width: 736px)
+{
 
-
-
+  .publications_makeup{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
