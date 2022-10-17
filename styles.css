@@ -198,6 +198,10 @@ flex-wrap: wrap;
   place-items: center;
 }
 
+.container section ul{
+  list-style-type: none;
+}
+
 .container section{
   padding: 10px;
   width: 400px;
@@ -270,6 +274,13 @@ and (max-width: 736px)
                "makeup_pro"
                "eyebrow"
                "massages";
+    justify-content: center;
+  }
+
+  .container section{
+    padding: 10px;
+    width: 300px;
+
   }
   
   .container .cosmetology{
