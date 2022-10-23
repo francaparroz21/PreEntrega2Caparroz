@@ -276,6 +276,10 @@ article ul {
     
 }
 
+.sur_form,.name_form,.query.born{
+    background-color: white;
+}
+
 .contact form{
     padding: 20px;
     border: 3px solid var(--blanco);
@@ -301,6 +305,7 @@ article ul {
     .sur_form,.name_form,.query{
         width: 200px;
     }
+
 }
 
 
