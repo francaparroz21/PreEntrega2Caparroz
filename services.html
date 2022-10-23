@@ -17,36 +17,34 @@
     <!-- Menu de navegacion -->
     <header>
         <nav class="navbar">
-            <div class="navbar-left">
-                <a href="index.html">
-                    <img class="navbarLogo" src="images/Bossy2.png">
-                </a>
-                <ul>
-                    <div>
-                        <li><a href="index.html">INICIO</a></li>
-                    </div>
-                    <div>
-                        <li><a href="services.html">SERVICIOS</a></li>
-                    </div>
-                    <div>
-                        <li><a href="products.html">CATALOGO</a></li>
-                    </div>
-                    <div>
-                        <li><a href="contact.html">CONTACTO</a></li>
-                    </div>
-                    <div>
-                        <li><a href="help.html">AYUDA</a></li>
-                    </div>
-                </ul>
-            </div>
-            <div class="navbar-right">
-                <div><a href="">Entrar</a></div>
-                <div><a href="">Registrarse</a></div>
+            <div class="container-fluid">
+                <div class="navbar-left">
+                    <a href="index.html">
+                        <img class="navbarLogo" src="images/Bossy2.png">
+                    </a>
+                    <ul>
+                        <div>
+                            <li><a href="index.html">INICIO</a></li>
+                        </div>
+                        <div>
+                            <li><a href="services.html">SERVICIOS</a></li>
+                        </div>
+                        <div>
+                            <li><a href="products.html">CATALOGO</a></li>
+                        </div>
+                        <div>
+                            <li><a href="contact.html">CONTACTO</a></li>
+                        </div>
+                        <div>
+                            <li><a href="help.html">AYUDA</a></li>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <div class="backgroundBox">
-        <div class="container">
+    <main>
+        <section class="container_services" class="container">
             <div class="row">
                 <section class="col" class="cosmetology">
                     <div class="content_info">
@@ -74,6 +72,8 @@
                         </article>
                     </div>
                 </section>
+            </div>
+            <div class="row">
                 <section class="col" class="facials">
                     <div class="content_info">
                         <article>
@@ -87,8 +87,6 @@
                         </article>
                     </div>
                 </section>
-            </div>
-            <div class="row">
                 <section class="col" class="makeup">
                     <div class="content_info">
                         <article>
@@ -100,6 +98,8 @@
                         </article>
                     </div>
                 </section>
+            </div>
+            <div class="row">
                 <section class="col" class="eyebrows">
                     <div class="content_info">
                         <article>
@@ -108,7 +108,7 @@
                                 <li>El diseño y perfilado de cejas consiste en darle la forma correcta a las cejas
                                     respetando la
                                     forma natural de la misma.</li>
-                                <li>Se tienen en cuenta diferentes factores: forma natural de las cejas, tipo y cantidad
+                                <li>Se tienen en cuenta la forma natural de las cejas, tipo y cantidad
                                     de
                                     pelo, forma de ojos y rostro.</li>
                                 <li>Los beneficios de un buen marco para tus ojos son inmediatos.</li>
@@ -133,27 +133,36 @@
                     </div>
                 </section>
             </div>
-        </div>
-        <footer>
-            <section class="query">
+        </section>
+
+    </main>
+    <footer class="container-fluid">
+        <div class="row">
+            <section class="col" class="query">
                 <h4>Tienes alguna duda?</h4>
-                <input type="text" name="Ingrese su consulta o pregunta.">
+                <input class="input_query" type="text" name="Ingrese su consulta o pregunta.">
             </section>
 
-            <section>
-                <h4>Contacto</h4>
-                <p>bossyvalentina@gmail.com</p>
-                <h4>Telefono</h4>
-                <p>+54 351-----</p>
-                <h4>Instagram</h4>
-                <div class="instagram_footer">
-                    <p>Bossy Skincare</p>
-                    <div class="instagram_logo"><a href="https://www.instagram.com/bossy.skincare/"><img
-                                src="./images/logo_instagram.jpg"></a></div>
+            <section class="col" class="footer_contact">
+                <div>
+                    <h4>Contacto</h4>
+                    <p>bossyvalentina@gmail.com</p>
+                </div>
+                <div>
+                    <h4>Telefono</h4>
+                    <p>+54 351-----</p>
+                </div>
+                <div>
+                    <h4>Instagram</h4>
+                    <div class="instagram_footer">
+                        <p>Bossy Skincare</p>
+                        <div class="instagram_logo"><a href="https://www.instagram.com/bossy.skincare/"><img
+                                    src="./images/logo_instagram.jpg"></a></div>
+                    </div>
                 </div>
             </section>
-        </footer>
-    </div>
+        </div>
+    </footer>
     <script src="./js/bootstrap.bundle.js"></script>
 </body>
 
