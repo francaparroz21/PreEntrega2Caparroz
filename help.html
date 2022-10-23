@@ -8,105 +8,86 @@
     <link rel="shortcut icon" href="images/Bossy2.png" type="image/x-icon">
     <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet"
         type="text/css" />
-        <link rel="stylesheet" href="./css/styles.css">
-    <title>BOSSY</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Bossy</title>
 </head>
 
 <body>
-    <!-- Menu de navegacion -->
     <header>
-        <nav class="navbar">
-            <div class="navbar-left">
-                <a href="index.html">
-                    <img class="navbarLogo" src="images/Bossy2.png">
-                </a>
-                <ul>
-                    <div>
-                        <li><a href="index.html">INICIO</a></li>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+                <div class="navbar-left">
+                    <a href="index.html">
+                        <img class="navbarLogo" src="images/Bossy2.png">
+                    </a>
+                    <div id="collapse_items" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-3">
+                            <div>
+                                <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                            </div>
+                            <div>
+                                <li class="nav-item"><a class="nav-link" href="services.html">SERVICIOS</a></li>
+                            </div>
+                            <div>
+                                <li class="nav-item"><a class="nav-link" href="products.html">CATALOGO</a></li>
+                            </div>
+                            <div>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTO</a></li>
+                            </div>
+                            <div>
+                                <li class="nav-item"><a class="nav-link" href="help.html">AYUDA</a></li>
+                            </div>
+                        </ul>
                     </div>
-                    <div>
-                        <li><a href="services.html">SERVICIOS</a></li>
-                    </div>
-                    <div>
-                        <li><a href="products.html">CATALOGO</a></li>
-                    </div>
-                    <div>
-                        <li><a href="contact.html">CONTACTO</a></li>
-                    </div>
-                    <div>
-                        <li><a href="help.html">AYUDA</a></li>
-                    </div>
-                </ul>
-            </div>
-            <div class="navbar-right">
-                <div><a href="">Entrar</a></div>
-                <div><a href="">Registrarse</a></div>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapse_items">
+                    <span class="navbar-toggler-icon">
+    
+                    </span>
+                </button>
             </div>
         </nav>
     </header>
+    <main>
+        
 
-    <div class="backgroundBox">
 
-        <div class="intro_desc">
-            <p>La estetica Bossy ofrece de las manos de los/las mejores especialistas, una amplia variedad de terapias,
-                tratamientos y masajes de embellecimiento tanto corporales como faciales, ofrecemos una gran cantidad de
-                productos para asesorar a nuestros clientes de la mejor linea <a
-                    href="https://idraetgroup.com/?gclid=Cj0KCQjw166aBhDEARIsAMEyZh6iwiQcJbNua7fvX7TcPgXoqKWANvligBEkQJWTMDLKDtH5ZAWx_gUaAtiVEALw_wcB">Idraet</a>.
-            </p>
-        </div>
 
-        <section class="publications">
-                <div class="makeup_intro">
-                    <div class="publication_makeup_intro">
-                        <h2>Makeup Natural</h2>
-                        <span>Importante: siempre limpiar e hidratar la piel antes de maquillar para lucir
-                            natural✨</span>
-                    </div>
-                    <div class="publications_makeup_steps">
-                        <div class="steps">
-                            <h3>3 PASOS DE LIMPIEZA</h3>
-                        <ul>
-                            <li>Leche de limpieza</li>
-                            <li>Tónico hidratante</li>
-                            <li>Crema hidratante</li>
-                        </ul>
-                        </div>
-                        <div class="steps">
-                            <h3>3 PASOS PARA MAQUILLAJE</h3>
-                            <ul>
-                                <li>Base (tono del color de la piel)</li>
-                                <li>Corrector</li>
-                                <li>Polvo volátil</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="since">Since 2019</p>
-                </div>
-                <img class="photo1" src="./images/makeup_me.PNG">
-                <img class="photo2" src="./images/makeup_photo.PNG">
-        </section>
-        <div class="bannerBox">
-            <img class="banner" src="images/banner.png">
-        </div>
-        <footer>
-            <section class="query">
+
+
+
+
+
+        
+    </main>
+    <footer class="container-fluid">
+        <div  class="row">
+            <section class="col" class="query">
                 <h4>Tienes alguna duda?</h4>
-                <input type="text" name="Ingrese su consulta o pregunta.">
+                <input class="input_query" type="text" name="Ingrese su consulta o pregunta.">
             </section>
-
-            <section>
-                <h4>Contacto</h4>
-                <p>bossyvalentina@gmail.com</p>
-                <h4>Telefono</h4>
-                <p>+54 351-----</p>
-                <h4>Instagram</h4>
-                <div class="instagram_footer">
-                    <p>Bossy Skincare</p>
-                    <div class="instagram_logo"><a href="https://www.instagram.com/bossy.skincare/"><img src="./images/logo_instagram.jpg"></a></div>
+    
+            <section class="col" class="footer_contact">
+                <div>
+                    <h4>Contacto</h4>
+                    <p>bossyvalentina@gmail.com</p>
+                </div>
+                <div>
+                    <h4>Telefono</h4>
+                    <p>+54 351-----</p>
+                </div>
+                <div>
+                    <h4>Instagram</h4>
+                    <div class="instagram_footer">
+                        <p>Bossy Skincare</p>
+                        <div class="instagram_logo"><a href="https://www.instagram.com/bossy.skincare/"><img
+                                    src="./images/logo_instagram.jpg"></a></div>
+                    </div>
                 </div>
             </section>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
 </body>
-
 </html>
