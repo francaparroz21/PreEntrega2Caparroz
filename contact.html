@@ -43,31 +43,38 @@
                 </div>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapse_items">
                     <span class="navbar-toggler-icon">
-    
+
                     </span>
                 </button>
             </div>
         </nav>
     </header>
     <main>
-        
-
-
-
-
-
-
-
-
-        
+        <div class="contact" class="container-fluid">
+            <form class="container" action="" method="">
+                <p>Nombre: <input class="name_form" type="text" name="name" size="40"></p>
+                <p>Apellido: <input class="sur_form" type="text" name="surname" size="40"></p>
+                <p>Fecha de nacimiento: <input type="date" id="start" name="trip-start" value="2018-07-22"
+                        min="2018-01-01" max="2018-12-31"></p>
+                <p>Sexo:
+                    <input type="radio" name="hm" value="h"> Hombre
+                    <input type="radio" name="hm" value="m"> Mujer
+                </p>
+                <p>Ingrese su consulta: <input class="query" type="text" size="30"></p>
+                <p class="buttons">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+            </form>
+        </div>
     </main>
     <footer class="container-fluid">
-        <div  class="row">
+        <div class="row">
             <section class="col" class="query">
                 <h4>Tienes alguna duda?</h4>
                 <input class="input_query" type="text" name="Ingrese su consulta o pregunta.">
             </section>
-    
+
             <section class="col" class="footer_contact">
                 <div>
                     <h4>Contacto</h4>
@@ -90,4 +97,5 @@
     </footer>
     <script src="./js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
