@@ -96,6 +96,11 @@ flex-wrap: wrap;
 }
 
 /*Intro*/
+
+.publication_makeup_intro span{
+  display: block;
+  padding: 10px;
+}
   .intro_desc {
     margin-top: 3.5px;
     padding: 30px 50px 30px 50px;
@@ -113,6 +118,7 @@ flex-wrap: wrap;
     background-color: white;
     color: var(--negro);
     transition: .3s;
+    
   }
 
   /*Banner*/
@@ -142,10 +148,6 @@ flex-wrap: wrap;
 .publication_makeup_intro h2{
   display: block;
   text-align: center;
-}
-
-.publication_makeup_intro span{
-  display: block;
 }
 
 .publications_makeup_steps .steps{
@@ -352,6 +354,11 @@ and (max-width: 736px)
   .makeup_intro{grid-column: 1;
     text-align: center;
   }
+
+  .photo1,.photo2{
+    width: 300px;
+  }
+
 
 }
 
