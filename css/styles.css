@@ -182,7 +182,9 @@ main .intro_desc p {
 
 footer {
     padding: 10px;
+    margin-top: 1px;
 }
+
 
 .query {
     text-align: center;
@@ -231,10 +233,13 @@ article ul {
 
 .container_services section {
     padding: 10px;
-    border-radius: 20px;
     padding: 20px 50px 10px 50px;
-    border: 1px solid rgb(177, 175, 175);
+    border: 2px outset #d9d7d7;
     text-align: center;
+}
+
+.container_services div{
+    height:min-content;
 }
 
 .see_more a {
@@ -263,7 +268,7 @@ article ul {
 
 
 
-/*MEDIA QUERY*/
+/*Photos and services container Breakpoint*/
 
 @media only screen and (min-width: 320px) and (max-width: 700px) {
 
@@ -273,9 +278,6 @@ article ul {
         justify-content: center;
     }
 
-    .container_services section{
-        height: 450px;
-    }
 
     .container_services .row{
         display: block;
@@ -289,9 +291,6 @@ article ul {
 
 @media only screen and (min-width: 320px) and (max-width: 500px){
     
-    footer section div{
-        width: 150px;
-    }
 
     footer section > *{
         font-size: x-small;
@@ -303,6 +302,15 @@ article ul {
 
 
 /* BOOSTRAP DESREEBOOT */
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
 
 
 h6,
@@ -363,9 +371,7 @@ dl {
 .row {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
